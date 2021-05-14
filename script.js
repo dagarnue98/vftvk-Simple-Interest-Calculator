@@ -1,7 +1,7 @@
 function compute()
 {
     //Principal function for operate
-    
+
     var principal = (document.getElementById("principal").value);
     var rate= (document.getElementById("rate").value);
     var years = (document.getElementById("years").value);
@@ -30,3 +30,5 @@ function correctAmount() {
         document.getElementById("principal").focus();
     }
 } 
+
+//David García Núñez
